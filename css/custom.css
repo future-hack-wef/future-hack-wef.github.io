@@ -1,6 +1,8 @@
 video {
-	-webkit-mask:url('../img/mask.svg');
-	mask-type: alpha;
+	/* -webkit-mask:url('../img/mask.svg');
+	mask:url('../img/mask.svg');
+	mask-image: url('../img/mask.svg');
+	mask-type: alpha; */
 	position: relative;
 	overflow: hidden;
 	  top:0;
@@ -9,11 +11,11 @@ video {
 	  bottom:0;
 	  width: 100%;
 	  height: auto;
-	  
+
 }
 
 
-/*  .center {
+/* .center {
   		width: 100%;
   		height: auto;
   		margin: 0 auto;
@@ -22,13 +24,13 @@ video {
   		right:0;
   		bottom:0;
   		left:0;
-  		overflow: visible;
+  		overflow: hidden;
   		z-index: -100;
-  	}
-  	*/
+  	} */
+  	
 
 #logo {
-    font-family: 'bebas-neue', sans-serif;
+    font-family: 'bebas-neue', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
     font-style: bold;
     font-size: 1.2em;
     letter-spacing: .2em;
@@ -49,6 +51,7 @@ strong {
 .mask {
 	mask: url('../img/mask.svg');
 	-webkit-mask:url('../img/mask.svg');
+	mask-image: url('../img/mask.svg');
 	mask-type: alpha;
 	position: relative;
 }
@@ -107,4 +110,3 @@ strong {
 .badges {
 	padding-top: 80px;
 }
-
