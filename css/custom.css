@@ -110,3 +110,14 @@ strong {
 .badges {
 	padding-top: 80px;
 }
+
+#resources ul li {
+   	position: relative;
+    text-align: left;
+    line-height: 1.5;
+    opacity: 0.8;
+    color: #3bccee;
+    padding: 10px;
+    list-style-type: circle;
+
+}

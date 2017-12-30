@@ -9,15 +9,19 @@ body {
   height: 100%; }
 
 body {
-  font-family: 'bebas-neue', 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
+  font-family: 'bebas-neue', 'Muli', 'Helvetica', 'Arial', 'sans-serif'; 
+
+}
 
 a {
-  color: #fdcc52;
+  color: #3bccee;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s; }
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: #3b5998; 
+    text-decoration: none;
+}
 
 hr {
   max-width: 100px;
@@ -91,7 +95,7 @@ section {
       #mainNav .navbar-brand {
         color: fade(white, 70%); }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-          color: #222; }
+          color: #3b5998; }
       #mainNav .navbar-nav > li > a,
       #mainNav .navbar-nav > li > a:focus {
         color: rgba(0, 0, 0, 0.7); }
@@ -366,7 +370,7 @@ footer {
   background: linear-gradient(#white, #FDFDFD); }
 
 .text-primary {
-  color: #fdcc52; }
+  color: #222; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
