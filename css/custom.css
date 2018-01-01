@@ -123,3 +123,44 @@ strong {
     list-style-type: circle;
 
 }
+
+h2 strong {
+	text-decoration-color: #3bccee;
+}
+
+.count {
+	font-size: 40px;
+	color: black;
+}
+
+.bg-count {
+	padding: 30px;
+
+}
+
+.slo, .grand, .davos {
+	  font-family: 'bebas-neue', 'lato', 'Muli', 'Helvetica', 'Arial', 'sans-serif'; 
+	  font-size: 30px;
+}
+
+#grand {
+	background-color: #3bccee;
+}
+
+.prizes .container {
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+
+.prizes .container .row {
+	padding-left: 0;
+	padding-right: 0;
+	vertical-align: middle;
+}
+
+@media (min-width: 576px) {}
+.container {
+    max-width: 100%;
+}
+}
