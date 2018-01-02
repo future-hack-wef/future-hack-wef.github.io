@@ -195,8 +195,8 @@ section.register {
   position: relative;
   padding: 150px 0; 
   background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to top, #dc2430, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to top, #dc2430, #3bccee); }
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #dc2430, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #dc2430, #3bccee); }
 }
   section.register h2 {
     font-size: 50px;
@@ -261,8 +261,8 @@ section.scoring {
   padding-bottom: 100px; 
   padding-top: 30px;
   background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #3bccee); }
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #dc2430, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #dc2430, #3bccee); }
 }
   section.scoring h2 {
     font-size: 50px;
@@ -372,8 +372,8 @@ footer {
 
 .bg-secondary {
   background: #3bccee;
-  background: -webkit-linear-gradient(to bottom, #FDFDFD, #3bccee);
-  background: linear-gradient(to bottom, #FDFDFD, #3bccee); }
+  background: -webkit-linear-gradient(to bottom, white, #3bccee);
+  background: linear-gradient(to bottom, white, #3bccee); }
 }
 
 .text-primary {
