@@ -148,19 +148,15 @@ h2 strong {
 }
 
 .prizes .container {
-	padding-left: 0;
-	padding-right: 0;
-	padding-bottom: 0;
+
 }
 
 .prizes .container .row {
-	padding-left: 0;
-	padding-right: 0;
-	vertical-align: middle;
+
 }
 
-@media (min-width: 576px) {}
+/* @media (min-width: 576px) {}
 .container {
     max-width: 100%;
 }
-}
+}*/
