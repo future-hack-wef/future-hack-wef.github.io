@@ -160,3 +160,28 @@ h2 strong {
     max-width: 100%;
 }
 }*/
+
+.partner {
+	width: 60%;
+	height: 60%;
+	vertical-align: center;
+
+}
+
+.slo {
+	width: 100%;
+	vertical-align: middle;
+
+}
+
+.foh {
+	width: 70%;
+}
+
+.sponsor {
+	padding-top: 60px;
+}
+
+.global {
+	width: 30%;
+}
