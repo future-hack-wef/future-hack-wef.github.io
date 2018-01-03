@@ -447,6 +447,11 @@ nav {
 
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
+    /*text-decoration: underline;
+    text-decoration-color: #3bccee;*/
+    -webkit-transition: all .35s;
+  	-moz-transition: all .35s;
+  	transition: all .35s; }
 }
 
 @media (max-width: 767px) {
@@ -527,9 +532,13 @@ nav {
 
 
 #kip {
-	padding-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
+.un {
+	width: 100%;
+}
 
 
 
