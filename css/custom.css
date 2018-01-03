@@ -540,5 +540,13 @@ nav {
 	width: 100%;
 }
 
+.feature-item img:hover {
+	opacity: .5;
+	-webkit-transition: all .35s;
+  	-moz-transition: all .35s;
+  	transition: all .35s; }
+
+}
+
 
 
