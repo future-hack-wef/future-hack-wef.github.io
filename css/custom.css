@@ -389,6 +389,7 @@ nav {
 
 
 .overlay {
+	display: inline-block;
     height: 0%;
     width: 50%;
     position: fixed;
@@ -500,14 +501,7 @@ nav {
     color: #3bccee;
 } */
 
-#menu, #logo {
-	z-index: 10000;
-}
 
-
-.left {
-	z-index: 10000;
-}
 
 
 @media screen and (max-height: 450px) {
@@ -519,14 +513,6 @@ nav {
     right: 35px;
   }
 }
-
-.navbar-brand {
-    color: #3bccee;
-    font-family: 'bebas-neue', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 700;
-    letter-spacing: 1px; }
-    .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: #3b5998; }
 
 
 #kip {
