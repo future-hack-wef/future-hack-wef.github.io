@@ -497,16 +497,21 @@ nav {
 }
 
 .overlay2 a {
-    padding: 8px;
+    padding: 30px;
+    padding-top: 60px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #f1f1f1;
     display: block;
     transition: 0.3s;
 }
 
+#slohack {
+	padding-top: 110px;
+}
+
 .overlay2 a:hover, .overlay2 a:focus {
-    color: #f1f1f1;
+    color: #818181;
 }
 
 /*.overlay .closebtn {
@@ -532,15 +537,15 @@ nav {
 
 
 #kip {
-	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 }
 
 .un {
 	width: 100%;
 }
 
-.feature-item img:hover {
+section .feature-item img:hover {
 	opacity: .5;
 	-webkit-transition: all .35s;
   	-moz-transition: all .35s;
