@@ -31,10 +31,8 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <style>
 
-
   
     </style>
-
 
   </head>
 
@@ -46,42 +44,34 @@
         <div class="col-lg-12">
 
         <div class="left">
-          <a class="navbar-brand js-scroll-trigger" href="index.html" id="logo">Future Hack</a>
+          <a class="navbar-brand js-scroll-trigger" href="#page-top" id="logo">Future Hack</a>
           
-          <div class="dropdown" id="menu" onclick="openNav();">
+          <div class="dropdown" id="menu" onclick="openNav(); myFunction(this);">
             <div class="container dropbtn">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
             <div id="myNav" class="overlay">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top" id="logo2">Future Hack</a>
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
               <div class="overlay-content">
-                <a class="nav-link js-scroll-trigger page" href="#about" onclick="closeNav();">About</a>
-                <a class="nav-link js-scroll-trigger page" href="#challenges" onclick="closeNav();">Challenges</a>
-                <a class="nav-link js-scroll-trigger page" href="#prizes" onclick="closeNav();">Prizes</a>
-                <a class="nav-link js-scroll-trigger page" href="#schedule" onclick="closeNav();">Schedule</a>
-                <a class="nav-link js-scroll-trigger page" href="#scoring" onclick="closeNav();">Judging Process</a>
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                <a class="nav-link js-scroll-trigger" href="#challenges">Challenges</a>
+                <a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a>
+                <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+                <a class="nav-link js-scroll-trigger" href="#scoring">Judging Process</a>
+                <a class="nav-link js-scroll-trigger" href="resources.html">Resources</a>
                 <a class="nav-link js-scroll-trigger" href="davos.html">Davos Hackathon</a>
                 <a class="nav-link js-scroll-trigger" href="slovenia.html">Slovenian Hackathon</a>
-                <a class="nav-link js-scroll-trigger" href="resources.html">Resources</a>
               </div>
             </div>
           </div>
 
         </div>
 
-        <div class="right">
+        <div class="right" id="myNav">
           <a href="register.html" class="btn btn-md js-scroll-trigger">Register</a>
-
-          <div id="myNav2" class="overlay2">
-              <div class="overlay-content2">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-
-              </div>
-            </div>
-          </div>
-
-
         </div>
 
       </div>
@@ -447,6 +437,71 @@
       <div class="overlay"></div>
     </section>
 
+    <section class="masthead" id="resources">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-5 my-auto">
+            <div class="header-content mx-auto">
+              <h2 class="mb-5"><strong>Tech Resources</strong></h2>
+              <h4><strong>APIs</strong></h4>
+              <ul>
+                <li><a href="https://www.zillow.com/howto/api/APIOverview.htm">Zillow</a></li>
+                <li><a href="https://www.mediawiki.org/wiki/API:Main_page">Wikipedia</a></li>
+                <li><a href="https://github.com/ckreibich/scholar.py">Google Scholar</a></li>
+                <li><a href="https://www.reddit.com/dev/api">Reddit</a></li>
+                <li><a href="https://www.alphavantage.co/documentation/">Alpha-Vantage</a></li>
+                <li><a href="https://www.programmableweb.com/">API Directory: ProgrammableWeb</a></li>
+              </ul>
+              <h4><strong>Open Source Datasets</strong></h4>
+              <ul>
+                <li><a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">Data is Plural</a></li>
+                <li><a href="https://podatki.gov.si/">Slovenia Open Data Gov</a></li>
+                <li><a href="https://opendata.swiss/en/">Swiss Open Data Gov</a></li>
+                <li><a href="https://data.gov.in/">India Open Data Gov</a></li>
+                <li><a href="http://open.canada.ca/en">Canada Open Data Gov</a></li>
+                <li><a href="https://www.data.gov/">US Open Data Gov</a></li>
+                <li><a href="https://www.quandl.com/search?query=">Quandl Financial Data</a></li>
+                <li><a href="https://archive.ics.uci.edu/ml/datasets.html">UCI Machine Learning Datasets</a></li>
+                <li><a href="https://www.gapminder.org/data/">Gapminder</a></li>
+                <li><a href="https://github.com/fivethirtyeight/data">FiveThirtyEight</a></li>
+                <li><a href="http://dataportals.org/">DataPortals</a></li>
+              </ul>
+
+
+            </div>
+          </div>
+          <div class="col-lg-7 my-auto">
+            <!-- <img src="img/goals.jpg" class="img-fluid icon" alt=""> -->
+            <div class="mx-auto">
+              <ul>
+                <li><a href="https://data.world/">Data.world</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research">Wikipedia ML Listings</a></li>
+                <li><a href="https://twitter.com/CoolDatasets">Cool Datasets on Twitter</a></li>
+                <li><a href="https://datascience.pushpullfork.com/Datasets">Public Data Science Datasets</a></li>
+                <li><a href="https://www.openml.org/search?type=data">OpenML</a></li>
+                <li><a href="https://github.com/caesar0301/awesome-public-datasets">Github: Awesome Public Datasets</a></li>
+                <li><a href="http://bayanat.ae/">http://bayanat.ae/</a></li>
+                <li><a href="https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/">https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/http://bayanat.ae/</a></li>
+                <li><a href="http://index.okfn.org/place/">http://index.okfn.org/place/</a></li>
+                <li><a href="https://transit.land/">https://transit.land/</a></li>
+              </ul>
+              <h4><strong>ConsenSys Technology</strong></h4>
+              <ul>
+                <li><a href="http://truffleframework.com/">Truffle</a></li>
+                <li><a href="https://metamask.io/">Metamask</a></li>
+                <li><a href="https://solidity.readthedocs.io/en/develop/">Documentation for smarts contracts coding in solidity: https://solidity.readthedocs.io/en/develop/</a></li>
+                <li><a href="https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html">Web3 Documentation: https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html</a></li>
+                <li><a href="https://www.rinkeby.io/#faucet">ETH for the test network rinkeby: https://www.rinkeby.io/#faucet</a></li>
+                <li><a href="https://github.com/truffle-box/react-box">I suggest you to start using a truffle box: https://github.com/truffle-box/react-box</a></li>
+
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <section class="features" id="challenges">
       <div class="container">
@@ -466,7 +521,7 @@
                 </div>
                 <div class="col-lg-4">
                   <div class="feature-item">
-                    <img id="kip" src="img/kip.png" class="img-fluid partner" alt="">
+                    <img src="img/logo-consensys.png" class="img-fluid partner" alt="">
                     <!--<h3>Health & Well-Being</h3>
                     <p class="text-muted">Figure out solutions to address health issues such as creating affordable and scalable healthcare infrastructures, combating diseases effectively, and providing proper sanitation and health services to those without access.</p> -->
                   </div>
@@ -480,12 +535,12 @@
               <div class="row sponsor">
                   <div class="col-lg-4">
                   <div class="feature-item">
-                    <img src="img/.png" class="img-fluid partner" alt="">
+                    <img src="img/kip.png" class="img-fluid partner" alt="">
                   </div>
                 </div>
                 <div class="col-lg-4">
                   <div class="feature-item">
-                    <img src="img/.jpg" class="img-fluid partner" alt="">
+                    <img src="img/foresight.jpg" class="img-fluid partner" alt="">
                   </div>
                 </div>
                 <div class="col-lg-4">

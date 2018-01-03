@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FutureHack @ WEF</title>
+    <title>FutureHack @ Davos 2018</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -30,7 +30,10 @@
     <link rel="shortcut icon" href="img/foh.jpg">
     <script src="js/jquery-3.2.1.min.js"></script>
     <style>
-
+#resources {
+  padding-top: 120px;
+}
+  
     </style>
 
   </head>
@@ -39,409 +42,123 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="logo">Future Hack</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#challenges">Challenges</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#register">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#scoring">Judging Process</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#resources">Resources</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <div class="container-fluid" id="nav">
+        <div class="col-lg-12">
 
-        <div class="row">
-            <div class="center">
-                <video autoplay loop muted>
-                  <source src="video/DavosKlosters3.mp4" type="video/mp4">
-                </video>
+        <div class="left">
+          <a class="navbar-brand js-scroll-trigger" href="index.html" id="logo">Future Hack</a>
+          
+          <div class="dropdown" id="menu" onclick="openNav(); myFunction(this);">
+            <div class="container dropbtn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
-        </div>
-
-    <header class="masthead" id="about">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-              <h2 class="mb-5">FutureHack is organizing the first ever Hackathon during the World Economic Forum in a call to action in support of solutions for of the United Nations SDGs. <strong>#FutureHack</strong></h2>
-              <p>FutureHack takes place in Davos/Klosters and in Slovenia offering the first Hackathon in conjunction with the Slovenian government as it aims to systemize community systems and governance structures on blockchain while also establishing and promoting an already thriving culture for decentralized projects and communities within Slovenia.</p>
-              <p>We're looking for those who are up for the challenge to bring emerging, distributed and decentralized solutions to solve key challenges: from climate change to healthcare we want your vision on how to tackle the worlds' most pressing issues. The hackathon kicks off a series of #FutureHack events including a virtual hackathon that launches after the World Economic Forum event.</p>
-            </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <!-- <img src="img/goals.jpg" class="img-fluid icon" alt=""> -->
-            <div class="header-content mx-auto">
-            <p>Top minds and talent from the Blockchain community in Slovenia and around the world will gather at the World Economic Forum, and FutureHack aims to show how technology can solve Humanity’s greatest challenges. The hackathon focuses on Social Impact and Partnerships as solutions for how blockchain projects can solve for the UN SDGs and the future of humanity.</p>
-            <p>Enter today to participate in the world’s first Hackathon at the World Economic Forum and for the chance to win up to <strong>$500,000</strong> in prizes! </p> 
-            <p>FutureHack is seeking individuals and teams of top developers, designers, and entrepreneurs to team up together solve one of SIX pressing challenges that we are facing globally. </p>
-            <a href="register.html" class="btn btn-outline btn-xl js-scroll-trigger">Register Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="features" id="challenges">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>The Challenges</h2>
-          <p class="text-muted">United Nations' Sustainable Development Goals</p>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/health.jpg" class="img-fluid sdg" alt="">
-                    <h3>Health & Well-Being</h3>
-                    <p class="text-muted">Figure out solutions to address health issues such as creating affordable and scalable healthcare infrastructures, combating diseases effectively, and providing proper sanitation and health services to those without access.</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/energy.jpg" class="img-fluid sdg" alt="">
-                    <h3>Affordable & Clean Energy</h3>
-                    <p class="text-muted">Find affordable and scalable ways to increase accessibility to clean electricity for regions that lack energy distribution infrastructures.</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/industry.jpg" class="img-fluid sdg" alt="">
-                    <h3>Industry & Infrastructure</h3>
-                    <p class="text-muted">Find distributed ledger solutions to use industrial and infrastructural innovations to develop regions in environmentally sound and efficient ways.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/city.jpg" class="img-fluid sdg" alt="">
-                    <h3>Sustainable Cities & Communities</h3>
-                    <p class="text-muted">Increase urban populations accessibility to basic services, energy, housing, transportation, or create ways to improve upon infrastructures.</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/climate.jpg" class="img-fluid sdg" alt="">
-                    <h3>Climate Action</h3>
-                    <p class="text-muted">Find scalable solutions to reduce emissions, shift to cleaner economies run on renewable energy, and adapt to a changing climate.</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/governance.jpg" class="img-fluid sdg" alt="">
-                    <h3>Governance</h3>
-                    <p class="text-muted">Find ways to increase the effectiveness and accountability of current government institutions and imagine ways to design governance to work toward peace, inclusion, justice, and sustainable development. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="feature-item">
-                    <img src="img/foh.jpg" class="img-fluid sdg" alt="">
-                    <h3>Submit Your Own Challenge</h3>
-                    <p class="text-muted">Find innovative and creative ways to incorporate blockchain technology into solving today and tomorrows’ largest social issues.</p>
-                  </div>
-                </div>
+            <div id="myNav" class="overlay">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top" id="logo2">Future Hack</a>
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+              <div class="overlay-content">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                <a class="nav-link js-scroll-trigger" href="#challenges">Challenges</a>
+                <a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a>
+                <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+                <a class="nav-link js-scroll-trigger" href="#scoring">Judging Process</a>
+                <a class="nav-link js-scroll-trigger" href="davos.html">Davos Hackathon</a>
+                <a class="nav-link js-scroll-trigger" href="slovenia.html">Slovenian Hackathon</a>
+                <a class="nav-link js-scroll-trigger" href="resources.html">Resources</a>
               </div>
             </div>
           </div>
+
         </div>
+
+        <div class="right" id="myNav">
+          <a href="register.html" class="btn btn-md js-scroll-trigger">Register</a>
+        </div>
+
       </div>
-    </section>
-
-      <section class="prizes bg-primary text-center" id="prizes">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mx-auto">
-            <h2 class="section-heading grand"><strong>Grand Prize</strong></h2>
-            <p>250,000 USD</p>
-            <div class="badges">
-
-            </div>
-          </div>
-          <div class="col-md-4 mx-auto">
-            <h2 class="section-heading davos"><strong>Davos Prize</strong></h2>
-            <p>125,000 USD</p>
-            <div class="badges">
-
-            </div>
-          </div>
-          <div class="col-md-4 mx-auto">
-            <h2 class="section-heading slo"><strong>Slovenian Prize</strong></h2>
-            <p>125,000 USD</p>
-            <div class="badges">
-
-            </div>
-          </div>
-        </div>
-        <div class="row sdg">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading sdg"><strong>SDG Prizes</strong></h2>
-            <p>25,000 - 125,000 USD</p>
-            <div class="badges">
-              <p>SDG Prizes also include automatic enrollment into the next FutureHack series which includes participation in Virtual Hackathon that begins immediately after FutureHack@WorldEconomicForum. Teams that successfully achieve the next phase of their working model during Virtual Hackathon will receive an additional $125,000 prize + all expenses paid trip to next FutureHack in the spring for core team (up to 5 members).</p>
-
-              <p>*All projects should submit a go to market strategy for expanded project plan that could be developed and launched within 3 month period that work towards solutions for SDGs.</p>
-
-              <p><strong>Incubation / Development for SDG Awards:</strong><br>
-              Additional Prizes as Advisement for projects selected for Virtual Hack</p>
+    </div>
+    </nav> 
 
 
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="register bg-primary text-center" id="register">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto hack">
-            <h2 class="section-heading">Hack for the Future of Humanity</h2>
-            <p>Come help us build a better future! Join FutureHack @ World Economic Forum.</p>
-            <div class="badges">
-              <a href="register.html" class="btn btn-outline btn-xl js-scroll-trigger">Register Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="masthead" id="schedule">
+    <section class="masthead" id="resources">
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-5 my-auto">
             <div class="header-content mx-auto">
-              <h2 class="mb-5"><strong>The Schedule</strong></h2>
-              <p></p>
+              <h2 class="mb-5"><strong>Tech Resources</strong></h2>
+              <h4><strong>APIs</strong></h4>
+              <ul>
+                <li><a href="https://www.zillow.com/howto/api/APIOverview.htm">Zillow</a></li>
+                <li><a href="https://www.mediawiki.org/wiki/API:Main_page">Wikipedia</a></li>
+                <li><a href="https://github.com/ckreibich/scholar.py">Google Scholar</a></li>
+                <li><a href="https://www.reddit.com/dev/api">Reddit</a></li>
+                <li><a href="https://www.alphavantage.co/documentation/">Alpha-Vantage</a></li>
+                <li><a href="https://www.programmableweb.com/">API Directory: ProgrammableWeb</a></li>
+              </ul>
+              <h4><strong>Open Source Datasets</strong></h4>
+              <ul>
+                <li><a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">Data is Plural</a></li>
+                <li><a href="https://podatki.gov.si/">Slovenia Open Data Gov</a></li>
+                <li><a href="https://opendata.swiss/en/">Swiss Open Data Gov</a></li>
+                <li><a href="https://data.gov.in/">India Open Data Gov</a></li>
+                <li><a href="http://open.canada.ca/en">Canada Open Data Gov</a></li>
+                <li><a href="https://www.data.gov/">US Open Data Gov</a></li>
+                <li><a href="https://www.quandl.com/search?query=">Quandl Financial Data</a></li>
+                <li><a href="https://archive.ics.uci.edu/ml/datasets.html">UCI Machine Learning Datasets</a></li>
+                <li><a href="https://www.gapminder.org/data/">Gapminder</a></li>
+                <li><a href="https://github.com/fivethirtyeight/data">FiveThirtyEight</a></li>
+                <li><a href="http://dataportals.org/">DataPortals</a></li>
+              </ul>
 
 
             </div>
           </div>
           <div class="col-lg-7 my-auto">
             <!-- <img src="img/goals.jpg" class="img-fluid icon" alt=""> -->
-            <div class="header-content mx-auto">
-              <h4><strong>January 5</strong></h4> <p>FutureHack registration open</p>
-              <h4><strong>January 5 - 20</strong></h4>
-                <p> Hackathon Mentors and Judges are available to support in project concept development. Matchmaking for projects and teams.</p> 
-                <p>Hackathon in Slovenia happens</p>
-              <h4><strong>January 20</strong></h4><p> Teams Travel to / Arrive Davos / Klosters - World Economic Forum. Registration ends.</p> 
-              <h4><strong>January 21</strong></h4><p> FutureHack opens @ World Economic Forum</p>
-              <h4><strong>Janaury 21-23</strong></h4><p> FutureHack teams build their projects</p>
-              <h4><strong>January 23</strong></h4> <p>FutureHack ends.</p>
-              <h4><strong>January 24</strong></h4><p> Projects present for Judging in Klosters</p>
-              <h4><strong>January 24 - 25</strong></h4><p> Projects Awarded / Award Ceremony in Davos</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="mx-auto">
+              <ul>
+                <li><a href="https://data.world/">Data.world</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research">Wikipedia ML Listings</a></li>
+                <li><a href="https://twitter.com/CoolDatasets">Cool Datasets on Twitter</a></li>
+                <li><a href="https://datascience.pushpullfork.com/Datasets">Public Data Science Datasets</a></li>
+                <li><a href="https://www.openml.org/search?type=data">OpenML</a></li>
+                <li><a href="https://github.com/caesar0301/awesome-public-datasets">Github: Awesome Public Datasets</a></li>
+                <li><a href="http://bayanat.ae/">http://bayanat.ae/</a></li>
+                <li><a href="https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/">https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/http://bayanat.ae/</a></li>
+                <li><a href="http://index.okfn.org/place/">http://index.okfn.org/place/</a></li>
+                <li><a href="https://transit.land/">https://transit.land/</a></li>
+              </ul>
+              <h4><strong>ConsenSys Technology</strong></h4>
+              <ul>
+                <li><a href="http://truffleframework.com/">Truffle</a></li>
+                <li><a href="https://metamask.io/">Metamask</a></li>
+                <li><a href="https://solidity.readthedocs.io/en/develop/">Documentation for smarts contracts coding in solidity: https://solidity.readthedocs.io/en/develop/</a></li>
+                <li><a href="https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html">Web3 Documentation: https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html</a></li>
+                <li><a href="https://www.rinkeby.io/#faucet">ETH for the test network rinkeby: https://www.rinkeby.io/#faucet</a></li>
+                <li><a href="https://github.com/truffle-box/react-box">I suggest you to start using a truffle box: https://github.com/truffle-box/react-box</a></li>
 
-    <section class="features" id="scoring">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>The Judges</h2>
-          <p class="text-muted">Bringing together global innovators for their vision of the Future of Humanity.</p>
-          <hr>
-        </div>
-        <div class="row judges">
-          <div class="col-lg-12 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/jeffrey.jpg" class="img-fluid sdg" alt="">
-                    <h3>Jeffrey Wernick</h3>
-                    <p class="text-muted">With 40 years of experience includes investments in Uber and Airbnb, after which he turned his focus to bank transactions, lending platforms, and the blockchain industry. He also has an advisory role on Qtum’s board to help the project with international growth and development strategies.</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/energy.jpg" class="img-fluid sdg" alt="">
-                    <h3>Affordable & Clean Energy</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/industry.jpg" class="img-fluid sdg" alt="">
-                    <h3>Industry & Infrastructure</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/city.jpg" class="img-fluid sdg" alt="">
-                    <h3>Sustainable Cities & Communities</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/climate.jpg" class="img-fluid sdg" alt="">
-                    <h3>Climate Action</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/governance.jpg" class="img-fluid sdg" alt="">
-                    <h3>Governance</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/city.jpg" class="img-fluid sdg" alt="">
-                    <h3>Sustainable Cities & Communities</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/climate.jpg" class="img-fluid sdg" alt="">
-                    <h3>Climate Action</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/governance.jpg" class="img-fluid sdg" alt="">
-                    <h3>Governance</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="scoring bg-primary text-center" id="judging">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading score">The Judging Process</h2>
-            
-              <p class="score">All teams will be required to present a short 3-minute demo of their project. Finalists from the Hackathon will be selected by a panel of World Virtual GovHack experts. Judges will be announced in the coming weeks.</p>
-
-              <p class="score">Each submission will be scored in each round based on the following criteria with a minimum score of 0 and maximum score of 30 points, with the final score being the average of the judges’ scores.</p>
-              
-            </div>
-          </div>
-          <div class="row criteria">
-            <div class="col-md-2 mx-auto score">
-              <p><strong>Execution</strong></p>
-              <p>Does the project successfully execute its intended technical goals? Does the project work-properly or as intended in its final presentation ready form? (5 points)</p>
-            </div>
-            <div class="col-md-2 mx-auto score">
-              <p><strong>Impact</strong></p>
-              <p>Does the project’s social impact line-up with the United Nations Sustainable Development goals? (5 points)</p>
-            </div>
-            <div class="col-md-2 mx-auto score">
-              <p><strong>Creativity</strong></p>
-              <p>Are the project’s concept and design unique or new solutions to its specific project impact goals?(5 points)</p>
-            </div>
-            <div class="col-md-2 mx-auto score">
-              <p><strong>Blockchain</strong></p>
-              <p>How successfully did the team integrate Blockchain technology into their solution or project?  (5 points)</p>
-            </div>
-            <div class="col-md-2 mx-auto score">
-              <p><strong>Scale</strong></p>
-              <p>How scalable is the project within Blockchain and distributed systems as solutions for what’s needed now and in the future? (5 points)</p>
-            </div>
-            <div class="col-md-2 mx-auto score">
-              <p><strong>Design</strong></p>
-              <p>How well designed, including UX/UI and user flow, was the solution? How well were the project and ideas presented? (5 points)</p>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="masthead" id="rules">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-5 my-auto">
-            <div class="header-content mx-auto">
-              <h2 class="mb-5"><strong>The Rules</strong></h2>
-              <p></p>
+              </ul>
 
 
             </div>
           </div>
-          <div class="col-lg-7 my-auto">
-            <!-- <img src="img/goals.jpg" class="img-fluid icon" alt=""> -->
-            <div class="header-content mx-auto">
-              <h4><strong>Team Size:</strong></h4><p>Teams of up to 5 participants are allowed. All team members must have completed the participation agreement to compete.</p>
-              <h4><strong>Fresh Code:</strong></h4><p>Teams may not begin code on this project until the competition officially begins. Please don’t come in and build on top of previous code for projects if you want to win. Teams may build on existing concepts, creative and ideas for projects and build fresh code as solutions for projects and initiatives that have been in development.</p> 
-              <h4><strong>Ownership</strong></h4><p>Teams have full ownership of everything they build at our events and are free to do with it as they wish. </p>
-              <h4><strong>Code Review</strong></h4><p>Winning teams may be subject to a code-review immediately following the event before winning.</p> 
-              <h4><strong>Identity Verification</strong></h4><p>Teams may not begin code on this project until the competition officially begins. Please don’t come in and build on top of previous code for projects if you want to win. Teams may build on existing concepts, creative and ideas for projects and build fresh code as solutions for projects and initiatives that have been in development.</p> 
-            </div>
-          </div>
         </div>
       </div>
-    </section>
-
-
-    <section class="cta">
-      <div class="cta-content">
-        <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
-          <a href="register.html" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
-        </div>
-      </div>
-      <div class="overlay"></div>
     </section>
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
         <h2>Follow us on Social Media!</h2>
         <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
           <li class="list-inline-item social-facebook">
             <a href="#">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
-          <li class="list-inline-item social-google-plus">
+          <li class="list-inline-item social-twitter">
             <a href="#">
-              <i class="fa fa-google-plus"></i>
+              <i class="fa fa-twitter"></i>
             </a>
           </li>
         </ul>
@@ -474,6 +191,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</script>
 
   </body>
 

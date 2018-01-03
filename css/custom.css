@@ -43,6 +43,8 @@ video {
     -o-transition: color .4s;
     transition: color .4s;
     text-decoration: none;
+    padding-top: 22px;
+    margin-left: 28px;
 
 }
 
@@ -77,7 +79,7 @@ strong {
 .sdg {
 	display: block;
 	margin: auto;
-	width: 80%;
+	width: 100%;
 	padding-bottom: 5%;
 }
 
@@ -232,3 +234,305 @@ section#schedule .overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -100; }
+
+
+.navbar .container .row {
+	width: 50%;
+	display: inline-block;
+}
+
+/* Navigation */
+
+#mainNav {
+	padding: 0 0 0 0;
+}
+
+#logo, #menu, {
+	z-index: 1000;
+}
+
+.overlay {
+	z-index: -10;
+}
+
+
+nav {
+	display: inline-block;
+}
+
+
+.left {
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	background-color: white;
+
+
+}
+
+.right {
+	display: none; 
+}
+
+@media (min-width: 768px) {
+
+.left {
+	width: 50%;
+	margin: 0;
+	display: inline-block;
+	background-color: white;
+
+
+}
+.right {
+	display: inline-block;
+	text-align: right;
+	margin:0 ;
+	background-color: #3bccee;
+	width: 50%;
+	float: right;
+	padding: 16.5px;
+}
+
+.right a {
+	color: white;
+	-webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s; 
+}
+
+
+.right a:hover {
+	color: #3b5998;
+}
+
+.left, .right {
+	display: inline-block;
+}
+
+
+}
+
+#nav {
+	width: 100%;
+
+}
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: #3bccee;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #3bccee;
+}
+
+.dropdown {
+
+}
+
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+/* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fdfdfd;
+    min-width: 260px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+
+.dropdown a:hover {background-color: #f1f1f1}
+*/
+.show {display:block;}
+
+
+.overlay {
+    height: 0%;
+    width: 50%;
+    position: fixed;
+    z-index: 0;
+    top: 71px;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 71px;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+}
+
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+@media (max-width: 767px) {
+.overlay2 {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.right {
+	display: none;
+}
+
+}
+
+.overlay2 {
+	display: inline-block;
+    height: 0%;
+    width: 50%;
+    float: right;
+    position: fixed;
+    z-index: -100;
+    bottom: 0;
+    right: 0;
+    background-color: #3bccee;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+
+.overlay-content2 {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay2 a:hover, .overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+/*.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 80px;
+    color: #3bccee;
+} */
+
+#menu, #logo {
+	z-index: 10000;
+}
+
+
+.left {
+	z-index: 10000;
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.navbar-brand {
+    color: #3bccee;
+    font-family: 'bebas-neue', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 700;
+    letter-spacing: 1px; }
+    .navbar-brand:hover, #mainNav .navbar-brand:focus {
+      color: #3b5998; }
+
+
+#kip {
+	padding-top: 20px;
+}
+
+
+
+
