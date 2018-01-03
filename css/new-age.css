@@ -24,6 +24,16 @@ a {
     text-decoration: none;
 }
 
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
 hr {
   max-width: 100px;
   margin: 25px auto 0;
@@ -222,11 +232,14 @@ section.register {
 
 
 section.features .section-heading {
-  margin-bottom: 0px; }
+  margin-bottom: 0px; 
+position: relative;}
   section.features .section-heading h2 {
+    font-size: 50px;
     margin-top: 0; }
   section.features .section-heading p {
-    margin-bottom: 0; }
+    font-size: 20px;
+    margin-top: 0; }
 
 section.features .device-container,
 section.features .feature-item {

@@ -48,6 +48,17 @@ video {
 
 }
 
+#rules {
+	font-size: 80px;
+}
+
+#challenge-title {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
 strong {
 	text-decoration: underline;
 }
