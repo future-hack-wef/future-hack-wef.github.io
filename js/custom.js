@@ -35,6 +35,7 @@ toggle between hiding and showing the dropdown content */
   }
 } */
 
+
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
     document.getElementById("myNav").style.zIndex = "-100";
