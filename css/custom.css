@@ -538,7 +538,7 @@ nav {
 
 #kip {
 	padding-top: 30px;
-	padding-bottom: 0px;
+	padding-bottom: 40px;
 }
 
 .un {
@@ -556,6 +556,15 @@ section .feature-item img:hover {
 #partners img:hover {
 	opacity: 1;
 }
+
+#partners img {
+	width: 70%;
+}
+
+.ledger {
+	padding-bottom: 100px;
+}
+
 
 
 
