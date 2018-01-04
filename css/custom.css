@@ -553,5 +553,9 @@ section .feature-item img:hover {
 
 }
 
+#partners img:hover {
+	opacity: 1;
+}
+
 
 
