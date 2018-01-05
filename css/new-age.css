@@ -361,6 +361,65 @@ section.contact {
       section.contact ul.list-social li.social-google-plus a:hover {
         background-color: #d73925; }
 
+  section.davos {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/cold.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  section.davos .davos-content {
+    position: relative;
+    z-index: 1; }
+    section.davos .davos-content h2 {
+      font-size: 50px;
+      max-width: 800px;
+      margin-top: 0;
+      margin-bottom: 25px;
+      color: white; }
+    @media (min-width: 768px) {
+      section.davos .davos-content h2 {
+        font-size: 80px; } }
+  section.davos .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+
+  section.slovenia {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/slovenia.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  section.slovenia .slovenia-content {
+    position: relative;
+    z-index: 1; }
+    section.slovenia .slovenia-content h2 {
+      font-size: 50px;
+      max-width: 700px;
+      margin-top: 0;
+      margin-bottom: 25px;
+      color: white; }
+    @media (min-width: 768px) {
+      section.slovenia .slovenia-content h2 {
+        font-size: 80px; } }
+  section.slovenia .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+
 
 footer {
   padding: 25px 0;
