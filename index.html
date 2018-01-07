@@ -100,7 +100,8 @@
                 <a class="nav-link js-scroll-trigger page" href="#challenges" onclick="closeNav();">Challenges</a>
                 <a class="nav-link js-scroll-trigger page" href="#prizes" onclick="closeNav();">Prizes</a>
                 <a class="nav-link js-scroll-trigger page" href="#schedule" onclick="closeNav();">Schedule</a>
-                <a class="nav-link js-scroll-trigger page" href="#scoring" onclick="closeNav();">Judging Process</a>
+                <a class="nav-link js-scroll-trigger page" href="#scoring" onclick="closeNav();">Experts</a>
+                <a class="nav-link js-scroll-trigger page" href="#judging" onclick="closeNav();">Judging Process</a>
                 <a class="nav-link js-scroll-trigger" href="resources.html" onclick="closeNav();">Resources</a>
               </div>
             </div>
@@ -233,7 +234,8 @@
       </div>
     </section>
 
-      <section class="prizes bg-secondary text-center" id="prizes">
+
+    <section class="prizes bg-secondary text-center" id="prizes">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mx-auto">
@@ -311,92 +313,282 @@
       <div class="overlay"></div>
     </section>
 
+<section class="features" id="scoring">
 
-    <section class="features" id="scoring">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2 id="judges">Judges</h2>
-          <p class="text-muted">Bringing together global innovators for their vision of the Future of Humanity.</p>
-          <hr>
-        </div>
-        <div class="row judges">
-          <div class="col-lg-12 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <a href="#" target="_blank"><img src="img/jeffrey.jpg" class="img-fluid sdg" alt=""></a>
-                    <h3>Jeffrey Wernick</h3>
-                    <p class="text-muted">Qtum Advisory Board-member</p>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'judges')" id="defaultOpen">Judges</button>
+      <button class="tablinks" onclick="openTab(event, 'mentors')">Mentors</button>
+      <button class="tablinks" onclick="openTab(event, 'advisors')">Advisory Board</button>
+    </div>
+
+    <!-- JUDGES TAB -->
+
+    <div id="judges" class="tabcontent" name="judges">
+
+          <div class="container">
+            <div class="section-heading text-center tab1">
+              <h2>Judges</h2>
+              <p class="text-muted">Bringing together global innovators for their vision of the Future of Humanity.</p>
+              <hr>
+            </div>
+            <div class="row judges">
+              <div class="col-lg-12 my-auto">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="#" target="_blank"><img src="img/jeffrey.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Jeffrey Wernick</h3>
+                        <p class="text-muted">Qtum Advisory Board-member</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/nena-dokuzov-27a9883a/" target="_blank"><img src="img/nena.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Nena Dokuzov</h3>
+                        <p class="text-muted">Director of Cultural-Economic Centre of European Space Technologies</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/adam-a-jacoby-09535a/" target="_blank"><img src="img/adam.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Adam Jacoby</h3>
+                        <p class="text-muted">Founder & Chief Steward at MiVote</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <a href="https://www.linkedin.com/in/nena-dokuzov-27a9883a/" target="_blank"><img src="img/nena.jpg" class="img-fluid sdg" alt=""></a>
-                    <h3>Nena Dokuzov</h3>
-                    <p class="text-muted">Director of Cultural-Economic Centre of European Space Technologies</p>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/lukassieber/" target="_blank"><img src="img/lukas.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Lukas Sieber</h3>
+                        <p class="text-muted">Co-Founder at the Mindfire Foundation</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/ohsusan/" target="_blank"><img src="img/susan.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Susan Oh</h3>
+                        <p class="text-muted">Chair of AI at Blockchain For Impact</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/thessy.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Thessy Mehrain</h3>
+                        <p class="text-muted">Director of Global Product & Innovation at ConsenSys</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <a href="https://www.linkedin.com/in/adam-a-jacoby-09535a/" target="_blank"><img src="img/adam.jpg" class="img-fluid sdg" alt=""></a>
-                    <h3>Adam Jacoby</h3>
-                    <p class="text-muted">Founder, Chief Steward MiVote</p>
-                  </div>
+                  <!-- <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                  </div> -->
                 </div>
               </div>
-              <!-- <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/placeholder.jpg" class="img-fluid sdg" alt="">
-                    <h3>Judge Name</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/placeholder.jpg" class="img-fluid sdg" alt="">
-                    <h3>Judge Name</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/placeholder.jpg" class="img-fluid sdg" alt="">
-                    <h3>Judge Name</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/placeholder.jpg" class="img-fluid sdg" alt="">
-                    <h3>Judge Name</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/placeholder.jpg" class="img-fluid sdg" alt="">
-                    <h3>Judge Name</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <img src="img/placeholder.jpg" class="img-fluid sdg" alt="">
-                    <h3>Judge Name</h3>
-                    <p class="text-muted">Bio</p>
-                  </div>
-                </div>
-              </div>
-            -->
             </div>
           </div>
-        </div>
-      </div>
+
+    </div>
+
+    <!-- MENTORS TAB -->
+
+    <div id="mentors" class="tabcontent" name="mentors">
+
+      <div class="container">
+            <div class="section-heading text-center tab2">
+              <h2>Mentors</h2>
+              <p class="text-muted">Bright minds looking to share what they know to solve today's biggest issues.</p>
+              <hr>
+            </div>
+            <div class="row judges">
+              <div class="col-lg-12 my-auto">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/hanieh-sadat-80891749/" target="_blank"><img src="img/hanieh.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Hanieh Sadat</h3>
+                        <p class="text-muted">Founder at ImpactX, Advisor at CLIMATECOIN</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/hamish-hughes-4808371/" target="_blank"><img src="img/hamish.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Hamish Hughes</h3>
+                        <p class="text-muted">Co-Founder & Global Director of Policy at MiVote</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/wulf-kaal-6904a65b/" target="_blank"><img src="img/wulf.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Wulf Kaal</h3>
+                        <p class="text-muted">Founder & CEO at HighTechBlock</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3></h3>
+                        <p class="text-muted"></p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="" target="_blank"><img src="img/.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Judge Name</h3>
+                        <p class="text-muted">Bio</p>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <!-- ADVISORS TAB -->
+
+    <div id="advisors" class="tabcontent" name="advisors">
+
+      <div class="container">
+            <div class="section-heading text-center tab3">
+              <h2>Advisory Board</h2>
+              <p class="text-muted">FutureHack's Advisors and Steering Committee.</p>
+              <hr>
+            </div>
+            <div class="row judges">
+              <div class="col-lg-12 my-auto">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="#" target="_blank"><img src="img/jeffrey.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Jeffrey Wernick</h3>
+                        <p class="text-muted">Qtum Advisory Board-member</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/patrick-dai-39278a108/" target="_blank"><img src="img/patrick.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Patrick Dai</h3>
+                        <p class="text-muted">Founder at Qtum</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/melindawoolf/" target="_blank"><img src="img/melinda.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Melinda Woolf</h3>
+                        <p class="text-muted">Founder & Chief Steward at Future of Humanity</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/jasperheyden/" target="_blank"><img src="img/jasper.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Jasper Heyden</h3>
+                        <p class="text-muted">Founder at Dronesperhour</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/mariam-azarm-aa127b8/" target="_blank"><img src="img/mariam.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Mariam Azarm</h3>
+                        <p class="text-muted">Founder at The Klosters Forum</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/jamesjfan/" target="_blank"><img src="img/james.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>James Fan</h3>
+                        <p class="text-muted">Tech Liaison & Blockchain Advisor at Future of Humanity</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/damir-jandricek-14602614/" target="_blank"><img src="img/damir.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Damir Jandricek</h3>
+                        <p class="text-muted">Founder at INEX360</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/lukas-fitze-394a372/" target="_blank"><img src="img/lukasfitze.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Lukas Fitze</h3>
+                        <p class="text-muted">ETH Zurich (The Swiss Federal Institute of Technology)</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="feature-item">
+                        <a href="https://www.linkedin.com/in/wulf-kaal-6904a65b/" target="_blank"><img src="img/wulf.jpg" class="img-fluid sdg" alt=""></a>
+                        <h3>Wulf Kaal</h3>
+                        <p class="text-muted">Founder & CEO at HighTechBlock</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
     </section>
+
 
     <section class="scoring bg-primary text-center" id="judging">
       <div class="container">
@@ -457,7 +649,7 @@
               <h4><strong>Fresh Code:</strong></h4><p>Teams may not begin code on this project until the competition officially begins. Please don’t come in and build on top of previous code for projects if you want to win. Teams may build on existing concepts, creative and ideas for projects and build fresh code as solutions for projects and initiatives that have been in development.</p> 
               <h4><strong>Ownership</strong></h4><p>Teams have full ownership of everything they build at our events and are free to do with it as they wish. </p>
               <h4><strong>Code Review</strong></h4><p>Winning teams may be subject to a code-review immediately following the event before winning.</p> 
-              <h4><strong>Identity Verification</strong></h4><p>Teams may not begin code on this project until the competition officially begins. Please don’t come in and build on top of previous code for projects if you want to win. Teams may build on existing concepts, creative and ideas for projects and build fresh code as solutions for projects and initiatives that have been in development.</p> 
+              <h4><strong>Identity Verification</strong></h4><p>All winners will be subject to an identity check for verification, before participating in hackathon and prior to the release of any prizes.</p> 
             </div>
           </div>
         </div>
