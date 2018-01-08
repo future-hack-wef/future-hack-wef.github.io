@@ -629,6 +629,10 @@ section .feature-item img:hover {
 	padding-top: 150px;
 }
 
+#donate2 {
+	padding-top: 0px;
+}
+
 .donate {
 	padding-bottom: 40px;
 }
@@ -651,6 +655,22 @@ section .feature-item img:hover {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.tip-button {
+  width: 304px;
+  height: 89px;
+  background-size: 100%;
+  background-image: url('images/1_pay_mm_off.png');
+  cursor: pointer;
+}
+
+.tip-button:hover {
+  background-image: url('images/1_pay_mm_over.png');
+}
+
+.tip-button:active {
+  background-image: url('images/1_pay_mm_off.png');
 }
 
 
