@@ -15,7 +15,7 @@
   document.addEventListener('DOMContentLoaded', () => {
 
     const buttons = document.getElementsByClassName('bitcoinate')
-    const sentence = 'Use this address to donate bitcoins to FutureHack: 3H9j1xfYEUfA9y8aq7KwKQZTLU5zmEt2KJ'
+    const sentence = 'Use this address to donate bitcoins to FutureHack: '
 
     for (let i = 0; i < buttons.length; i++) {
 
