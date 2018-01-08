@@ -625,6 +625,19 @@ section .feature-item img:hover {
 	padding-top: 50px;
 }
 
+#donate {
+	padding-top: 150px;
+}
+
+.donate {
+	padding-bottom: 40px;
+}
+
+.bitcoinate {
+	padding-top: 30px;
+	padding: 50px;
+}
+
 
 
 

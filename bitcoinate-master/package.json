@@ -1,0 +1,22 @@
+{
+  "name": "bitcoinate",
+  "version": "0.2.2",
+  "scripts": {
+    "test": "npm run lint && npm run build && echo 'Open ./tests/index.html'",
+    "lint": "eslint --ignore-pattern *.min.js .",
+    "build": "jake --always-make --trace",
+    "prepublish": "npm test"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "./node_modules/javascript-styleguide/.eslintrc.yml"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "jake": "^8.0.12",
+    "javascript-styleguide": "^0.2.2",
+    "nib": "~1.1.0",
+    "stylus": "~0.54.3",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony"
+  }
+}
