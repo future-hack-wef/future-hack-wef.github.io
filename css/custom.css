@@ -714,6 +714,10 @@ section.lodge {
     background-color: rgba(0, 0, 0, 0.5); }
 
 
-
+@media (max-width: 768px) {
+	.zoo{
+		padding-top: 50px;
+	}
+}
 
 
