@@ -721,12 +721,17 @@ section.lodge {
 } 
 
 .validity {
-	padding-top: 15px;
+	padding: 10px;
 
 }
 
 .climate {
+	padding-bottom: 60px;
 	padding: 50px;
+}
+
+.foh {
+	padding-top: 50px;
 }
 
 
