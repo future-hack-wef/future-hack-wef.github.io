@@ -561,7 +561,7 @@ section .feature-item img:hover {
 }
 
 .ledger {
-	
+
 }
 
 /* Tab Style */
@@ -727,11 +727,18 @@ section.lodge {
 
 .climate {
 	padding-bottom: 60px;
-	padding: 50px;
+	padding: 5px;
 }
 
 .foh {
 	padding-top: 50px;
 }
+
+#ls {
+padding-top: 50px;
+}
+
+
+
 
 
